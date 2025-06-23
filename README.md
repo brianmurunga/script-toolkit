@@ -4,9 +4,9 @@ A collection of useful PowerShell, Bash and CMD scripts I've created or curated 
 
 ## 📂 powershell/
 
-- ### 🔍 `user_account_monitor.ps1`
+- ###  `user_account_monitor.ps1`
 Monitors the Windows Security log for new user account creation events (Event ID 4720) and shows a popup alert if one is detected. Helpful for identifying unexpected or unauthorized account creation.
-### 🚫 `disable_wsiaccount.ps1`
+- ###  `disable_wsiaccount.ps1`
 Disables the `WsiAccount` — a Web Sign-In account sometimes created by Windows automatically, usually unnecessary on personal laptops.
 
 ---
