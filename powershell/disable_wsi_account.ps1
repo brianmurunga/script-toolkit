@@ -1,5 +1,5 @@
 # disable_wsiaccount.ps1
-# Disables the WsiAccount system user if found
+# Disables the WsiAccount system user if found.
 
 $account = Get-LocalUser -Name "WsiAccount" -ErrorAction SilentlyContinue
 
