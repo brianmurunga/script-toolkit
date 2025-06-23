@@ -1,6 +1,6 @@
 # user_account_monitor.ps1
 # Script to detect newly created user accounts via Security Event Log (Event ID 4720)
-# Triggers a popup alert if new accounts are found
+# Triggers a popup alert if new accounts are found..
 
 Add-Type -AssemblyName System.Windows.Forms
 
